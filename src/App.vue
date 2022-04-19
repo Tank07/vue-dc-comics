@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TotalHeader/>
+    <BlackStripe/>
+    <LogosList/>
+    <FooterMenuList/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TotalHeader from './components/TotalHeader.vue'
+import BlackStripe from './components/BlackStripe.vue'
+import LogosList from './components/LogosList.vue'
+import FooterMenuList from './components/FooterMenuList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TotalHeader,
+    BlackStripe,
+    LogosList,
+    FooterMenuList
   }
 }
 </script>
@@ -22,7 +30,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 </style>
