@@ -3,7 +3,8 @@
     <TotalHeader/>
     <BlackStripe/>
     <LogosList/>
-    <FooterMenuList/>
+    <FooterTotalFirst/>
+    <FooterLast/>
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 import TotalHeader from './components/TotalHeader.vue'
 import BlackStripe from './components/BlackStripe.vue'
 import LogosList from './components/LogosList.vue'
-import FooterMenuList from './components/FooterMenuList.vue'
+import FooterTotalFirst from './components/FooterTotalFirst.vue'
+import FooterLast from './components/FooterLast.vue'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
     TotalHeader,
     BlackStripe,
     LogosList,
-    FooterMenuList
+    FooterTotalFirst,
+    FooterLast
   }
 }
 </script>

@@ -1,12 +1,8 @@
 <template>
   <footer>
 
-    <div>
       <FooterMenuList/>
-    </div>
-    <div>
       <FooterLogo/>
-    </div>
 
   </footer>
 </template>
@@ -28,6 +24,10 @@ export default {
 
 footer{
   display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-image: url("../assets/img/footer-bg.jpg");
+  background-repeat: no-repeat;
 }
 
 </style>

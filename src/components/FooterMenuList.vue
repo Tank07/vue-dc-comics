@@ -31,9 +31,6 @@ export default {
 
 section{
     display: flex;
-    padding-left: 20%;
-    padding-right: 20%;
-    background-image: url("../assets/img/footer-bg.jpg");
 }
 
 </style>
