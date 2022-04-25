@@ -29,11 +29,13 @@ export default {
 
   li{
     margin: 0 5px;
+    
   }
 
   img{
     height: 30px;
     width: auto;
+    color: #303030;
   }  
 
 </style>

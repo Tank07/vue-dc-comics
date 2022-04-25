@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="my-2">
 
     <div class="col">
       <LogoHeader/>

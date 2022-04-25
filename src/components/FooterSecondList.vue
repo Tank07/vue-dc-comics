@@ -26,6 +26,15 @@ export default {
 }
 </script>
 
-<style >
+<style scoped>
+
+ul {
+    list-style-type: none;
+    color: grey;
+}
+
+h3{
+  color: white;
+}
 
 </style>

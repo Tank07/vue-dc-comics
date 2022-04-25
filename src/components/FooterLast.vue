@@ -29,7 +29,7 @@ export default {
 
 section{
   display: flex;
-  background-color: grey;
+  background-color: #303030;
   align-items: center;
   justify-content: space-between;
   padding-left: 20%;

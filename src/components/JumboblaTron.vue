@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'FooterLogo',
+  name: 'JumboblaTron',
 }
 </script>
 
@@ -14,10 +14,10 @@ export default {
 <style scoped>
 
 div{
-  background-image: url("../assets/img/dc-logo-bg.png");
-  height: 400px;
-  width: 400px;
+  background-image: url("../assets/img/jumbotron.jpg");
+  height: 350px;
   background-size: cover;
 }
+
 
 </style>

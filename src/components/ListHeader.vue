@@ -1,17 +1,17 @@
 <template>
   <div>
       
-    <ul>
-      <li>Home</li>
-      <li>Prodotti</li>
-      <li>Chi siamo</li>
-      <li>Contatti</li>
-      <li>Home</li>
-      <li>Prodotti</li>
-      <li>Chi siamo</li>
-      <li>Contatti</li>
-      <li>Chi siamo</li>
-      <li>Contatti</li>
+    <ul class="fw-bold">
+      <li>Characters</li>
+      <li>Comics</li>
+      <li>Movies</li>
+      <li>Tv</li>
+      <li>Games</li>
+      <li>Collectibles</li>
+      <li>Videos</li>
+      <li>Fans</li>
+      <li>News</li>
+      <li>Videos</li>
     </ul>
 
   </div>
